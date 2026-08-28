@@ -1,0 +1,66 @@
+{
+  "groq_api_key": "gsk_YOUR_GROQ_API_KEY_HERE",
+  "youtube_client_id": "YOUR_YOUTUBE_CLIENT_ID.apps.googleusercontent.com",
+  "youtube_client_secret": "YOUR_YOUTUBE_CLIENT_SECRET",
+  "google_cloud_credentials": "path/to/google-credentials.json",
+  
+  "language": "hindi",
+  "secondary_language": "english",
+  "
+  "channel_config": {
+    "channel_id": "your_youtube_channel_id",
+    "video_category": "28",
+    "make_public": true,
+    "enable_comments": true,
+    "enable_ratings": true
+  },
+  
+  "automation": {
+    "mode": "schedule",
+    "upload_schedule": "daily",
+    "upload_time": "10:00",
+    "timezone": "Asia/Kolkata",
+    "videos_per_day": 1
+  },
+  
+  "video_settings": {
+    "resolution": "1080p",
+    "fps": 30,
+    "duration_min": 5,
+    "duration_max": 15,
+    "add_subtitles": true,
+    "subtitle_language": "hindi"
+  },
+  
+  "content": {
+    "topic_category": "trading",
+    "topics": [
+      "Stock Market Trading",
+      "Cryptocurrency Trading",
+      "Forex Trading",
+      "Options Trading",
+      "Day Trading Strategies"
+    ],
+    "tone": "educational",
+    "target_audience": "beginners"
+  },
+  
+  "audio": {
+    "tts_provider": "google",
+    "voice_gender": "male",
+    "speech_rate": 1.0,
+    "background_music": true
+  },
+  
+  "thumbnail": {
+    "auto_generate": true,
+    "template": "modern",
+    "add_text": true
+  },
+  
+  "logging": {
+    "enable_logging": true,
+    "log_level": "INFO",
+    "log_file": "logs/autopilot.log"
+  }
+}
